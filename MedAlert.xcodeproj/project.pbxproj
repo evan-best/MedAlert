@@ -35,7 +35,6 @@
 		2403025A2BF97AB800148ECE /* WeekStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240302592BF97AB800148ECE /* WeekStore.swift */; };
 		2403025C2BF9852900148ECE /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403025B2BF9852900148ECE /* Drug.swift */; };
 		2403025E2BF9859200148ECE /* DrugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403025D2BF9859200148ECE /* DrugViewModel.swift */; };
-		240302602BF98EE700148ECE /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403025F2BF98EE700148ECE /* TestView.swift */; };
 		24408C872BF95D680043C208 /* MedAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24408C862BF95D680043C208 /* MedAlertApp.swift */; };
 		24408C892BF95D680043C208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24408C882BF95D680043C208 /* ContentView.swift */; };
 		24408C8B2BF95D690043C208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24408C8A2BF95D690043C208 /* Assets.xcassets */; };
@@ -60,7 +59,6 @@
 		240302592BF97AB800148ECE /* WeekStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStore.swift; sourceTree = "<group>"; };
 		2403025B2BF9852900148ECE /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
 		2403025D2BF9859200148ECE /* DrugViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugViewModel.swift; sourceTree = "<group>"; };
-		2403025F2BF98EE700148ECE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		240302612BF9A3CD00148ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		24408C832BF95D680043C208 /* MedAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24408C862BF95D680043C208 /* MedAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedAlertApp.swift; sourceTree = "<group>"; };
@@ -105,8 +103,8 @@
 		2403021D2BF95F8100148ECE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2403021E2BF95F9300148ECE /* ProfileView.swift */,
 				240302222BF9636300148ECE /* PillView.swift */,
+				2403021E2BF95F9300148ECE /* ProfileView.swift */,
 				240302242BF9639100148ECE /* HomeView.swift */,
 				2403024C2BF96BD100148ECE /* LoginView.swift */,
 				2403024E2BF96CEF00148ECE /* RegistrationView.swift */,
@@ -119,7 +117,6 @@
 			children = (
 				240302292BF9648800148ECE /* AuthViewModel.swift */,
 				2403025D2BF9859200148ECE /* DrugViewModel.swift */,
-				2403025F2BF98EE700148ECE /* TestView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -296,7 +293,6 @@
 				2403024B2BF96BAD00148ECE /* InputView.swift in Sources */,
 				240302562BF97A1D00148ECE /* WeekView.swift in Sources */,
 				2403024D2BF96BD100148ECE /* LoginView.swift in Sources */,
-				240302602BF98EE700148ECE /* TestView.swift in Sources */,
 				2403021C2BF95E5100148ECE /* TabView.swift in Sources */,
 				240302582BF97A9F00148ECE /* WeekValue.swift in Sources */,
 				24408C872BF95D680043C208 /* MedAlertApp.swift in Sources */,

@@ -7,11 +7,11 @@
 
 import Foundation
 
-//struct DrugResponse: Decodable {
-    //let terms: [String]
-   // let strengthsAndForms: [DrugStrengthForm]?
-//}
+struct Drug {
+    let name: String
+    let amount: Int
+    let dose: String
+    let frequency: [PillView.Day]
+    let reminders: [String]
+}
 
-//struct DrugStrengthForm: Decodable {
-    //let STRENGTHS_AND_FORMS: String?
-//}
