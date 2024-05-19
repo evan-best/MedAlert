@@ -61,6 +61,7 @@
 		2403025B2BF9852900148ECE /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
 		2403025D2BF9859200148ECE /* DrugViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugViewModel.swift; sourceTree = "<group>"; };
 		2403025F2BF98EE700148ECE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		240302612BF9A3CD00148ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		24408C832BF95D680043C208 /* MedAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24408C862BF95D680043C208 /* MedAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedAlertApp.swift; sourceTree = "<group>"; };
 		24408C882BF95D680043C208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		24408C852BF95D680043C208 /* MedAlert */ = {
 			isa = PBXGroup;
 			children = (
+				240302612BF9A3CD00148ECE /* Info.plist */,
 				24408C862BF95D680043C208 /* MedAlertApp.swift */,
 				240302502BF96E9800148ECE /* Utilities */,
 				2403021A2BF95E4100148ECE /* Components */,
@@ -434,6 +436,7 @@
 				DEVELOPMENT_TEAM = T5RS4V4R68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedAlert/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +467,7 @@
 				DEVELOPMENT_TEAM = T5RS4V4R68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedAlert/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

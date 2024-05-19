@@ -59,42 +59,6 @@ struct LoginView: View {
                 .cornerRadius(10)
                 .padding(.top, 24)
                 
-                // Divider and OR Text
-                HStack {
-                    VStack { Divider () }
-                    
-                    Text("OR")
-                        .fontWeight(.semibold)
-                        .foregroundColor(.gray)
-                    VStack { Divider() }
-                }
-                .padding(.vertical, 8)
-
-
-                // Google Sign in
-                
-                Button {
-                    Task {
-                        do {
-                            try await viewModel.signInGoogle()
-                            navigateToHome = true
-                        } catch {
-                            
-                            print("DEBUG: Failed to sign in with Google with error \(error.localizedDescription)")
-                        }
-                    }
-                } label: {
-                    Text("Continue with Google")
-                        .foregroundStyle(Color(.black))
-                        .frame(width: UIScreen.main.bounds.width - 62, height:32)
-                        .background(alignment: .leading) {
-                            Image("Google")
-                                .resizable()
-                                .frame(width: 32, alignment: .center)
-                        }
-                }
-                .buttonStyle(.bordered)
-                
                 Spacer()
                 
                 // Sign up button
