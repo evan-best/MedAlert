@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>965071349958-7oimr559eja6c6vkf2upef648acip8na.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.965071349958-7oimr559eja6c6vkf2upef648acip8na</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDrz7o0HuzmAHPnYt026nUxeqsRWNg7XfE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>965071349958</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Evan-Best.MedAlert</string>
+	<key>PROJECT_ID</key>
+	<string>medalert-da35b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medalert-da35b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:965071349958:ios:675637da5b1f3aedbccfc7</string>
+</dict>
+</plist>
